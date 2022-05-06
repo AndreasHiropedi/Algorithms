@@ -1,5 +1,6 @@
 def FloydWarshall(n):
     inf = 99999
+    # can change these values accordignly
     dists = [ [0, 5, inf, 2, inf],
               [inf, 0, 4, -2, 5],
               [inf, inf, 0, inf, inf],
@@ -14,12 +15,12 @@ def FloydWarshall(n):
         print("")
         print_sol(n, dists)
         print(" ")
-    return dists
 
 
 def print_sol(n, D):
     for i in range(n):
         for j in range(n):
+            # ensures infinity is printed instead of an actual numerical value
             if D[i][j] > 999:
                 print("inf", end = " ")
             else:
