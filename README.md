@@ -9,3 +9,4 @@ Python implementations for a bunch of common algorithms used in one of my univer
 - Depth-First-Search(DFS)
 - Viterbi
 - Coin-change problem
+- Number guessing algorithm
