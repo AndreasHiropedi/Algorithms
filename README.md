@@ -7,6 +7,5 @@ Python implementations for a bunch of common algorithms, including:
 - Edit-distance
 - Breadth-First-Search (BFS)
 - Depth-First-Search(DFS)
-- Viterbi
 - Coin-change problem
 - Number guessing algorithm
